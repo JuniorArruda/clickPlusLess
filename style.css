@@ -1,0 +1,39 @@
+@font-face {
+    font-family: 'Oswald';
+    src: url('fonts/Oswald-Regular.ttf') format('truetype');
+}
+
+* {
+    font-family: 'Oswald', sans-serif;
+}
+
+div {
+    border: solid 3px cadetblue;
+}
+
+.content {
+    background-color: coral;
+    text-align: center;
+    margin: 0 40px;
+    padding: 20px;
+    display: flex
+}
+
+.textArea {
+    margin: 30px auto;
+    background-color: cornflowerblue;
+}
+
+.buttonPlus,
+.buttonLess {
+    padding: 10px;
+    margin: 20px;
+    background-color: cadetblue;
+}
+
+body {
+    margin: 0;
+    background-color: #0D262D;
+    color: #fff;
+    height: 100%;
+}
